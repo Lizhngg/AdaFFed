@@ -81,9 +81,9 @@ def arg_parser():
     
     ## AdaFFed
     parser.add_argument('--a_value', help = 'regularization parameter a',
-                        type = float, default = 5)
+                        type = float, default = 2)
     parser.add_argument('--c_value', help = 'parameter c',
-                        type = str, default = 100)
+                        type = str, default = 10)
     parser.add_argument('--eta', help = 'eta',
                         type = str, default = 1)
     parser.add_argument('--fairness', help = 'fairness',

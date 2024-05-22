@@ -45,7 +45,7 @@ Example:
 ```
 python main.py --algorithm fedavg --data compas --num_round 50 --local_lr 0.001
 
-python main.py --algorithm adaffed --data compas --client 2 --a_value 5 --c_value 10 
+python main.py --algorithm adaffed --data compas 
 ```
 
 See comments in options.py for more paprameters.
